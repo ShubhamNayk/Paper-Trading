@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# React build output
+client/build/
+
+# SQLite databases (fresh DB created on first run)
+server/*.db
+server/*.db-shm
+server/*.db-wal
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
